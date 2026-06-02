@@ -1,0 +1,20 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    public function up(): void {
+        Schema::create('searcher_statuses', function (Blueprint $table) {
+            $table->id();
+            $table->string('slug')->unique(); // For backend string validation code (e.g. 'in_progress')
+            $table->string('name');           // For UI display (e.g. 'In Progress')
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void {
+        Schema::dropIfExists('searcher_statuses');
+    }
+};
