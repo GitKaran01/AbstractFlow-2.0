@@ -12,7 +12,10 @@ The diagram below details the operational mechanics, data paths, and underlying 
 TIP: Replace the path below with your actual image file path (e.g., 'images/diagram.png') 
 or simply drag and drop your image file here in the GitHub web editor.
 -->
-![AbstractFlow Architecture Diagram](path/to/your/flow-diagram.png)
+![AbstractFlow Architecture Diagram]
+
+<img width="2816" height="1536" alt="Flow Diagram" src="https://github.com/user-attachments/assets/8dbda989-48c1-4691-aef5-3cfa4313e3e2" />
+
 
 ---
 
@@ -46,16 +49,3 @@ User accounts are managed and stored dynamically. To access individual user acco
 ```text
     123456
     ```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-Ensure you have your runtime environment, database engine, and server control panels configured prior to deployment.
-
-### Local Deployment
-1. **Clone the repository:**
-```bash
-   git clone [https://github.com/your-username/AbstractFlow.git](https://github.com/your-username/AbstractFlow.git)
-   cd AbstractFlow
