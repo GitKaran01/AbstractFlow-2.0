@@ -48,4 +48,4 @@ User accounts are managed and stored dynamically. To access individual user acco
 *   **Default Password:** The global fallback password assigned to every generated user profile is:
 ```text
     123456
-    ```
+
